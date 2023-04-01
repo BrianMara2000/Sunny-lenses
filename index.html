@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Sunny Lenses</title>
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class=" w-full items-center py-10 bg-custom-yellow">
+        <div class=" relative container mx-auto px-10 md:px-10 lg:px-10 xl:px-20 flex flex-row items-center justify-between">
+            <div>
+                <img src="image/Sunny_Lenses-removebg-preview.png" alt="">
+            </div>
+            <nav class="hidden xl:flex justify-end font-montserrat xl:space-x-16">
+                <a class=" text-custom-18" href="#"> FRAMES</a>
+                <a class=" text-custom-18" href="#"> LENSES</a>
+                <a class=" text-custom-18" href="#"> PRICING</a>
+                <a class=" text-custom-18" href="#"> REVIEWS</a>
+                <a class=" text-custom-18" href="#"> LOCATIONS</a>
+            </nav>
+            <button id="menu-btn" class=" z-10 block hamburger xl:hidden focus:outline-none">
+                 <span class=" hamburger-top"></span>
+                 <span class=" hamburger-middle"></span>
+                 <span class=" hamburger-bottom"></span>
+            </button>
+        </div>
+        <div id="menu" class="absolute border z-0 flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-custom-yellow sm:w-auto sm:self-center left-10 right-10 drop-shadow-md font-montserrat">
+            <a class=" text-custom-18" href="#"> FRAMES</a>
+            <a class=" text-custom-18" href="#"> LENSES</a>
+            <a class=" text-custom-18" href="#"> PRICING</a>
+            <a class=" text-custom-18" href="#"> REVIEWS</a>
+            <a class=" text-custom-18" href="#"> LOCATIONS</a>
+        </div>
+        
+    </header>
+       
+
+
+    <!-- Section 1 -->
+    <section class=" flex hero bg-crop-2 bg-cover bg-center bg-red-500
+                     md:h-custom-500 md:w-full md:bg-crop-2 md:bg-cover md:bg-right
+                     xl:h-custom-770 xl:bg-sunflower xl:bg-cover xl:bg-center"
+    >
+        <div class=" container mx-auto px-10 py-10 flex flex-col self-center
+                       "
+        >
+            <div class=" flex flex-col w-1/2 self-end space-y-3
+                         md:w-7/12 md:space-y-5
+                         lg:w-1/2
+                         xl:w-2/5 xl:space-y-7
+                         2xl:w-1/35"
+            >
+                <h2 class=" text-sm lg:text-base xl:text-lg font-montserrat font-custom-650 "> CUSTOM-TAILORED EYEWEAR</h2>
+                <h1 class=" text-3xl lg:text-4xl lg:leading-10 xl:text-5xl xl:leading-normal font-montserrat font-custom-750">
+                    Glasses that looks good on you, not just on the shelf.
+                </h1>
+                <div class=" flex flex-row space-x-3">
+                    <button class=" bg-black rounded-xl">
+                        <h1 class=" text-sm xl:text-base 2xl:text-lg text-white px-3 lg:px-5 xl:10 py-3 font-montserrat font-custom-650 ">
+                            SHOP MEN
+                        </h1>
+                    </button>
+                    <button class=" bg-black rounded-xl">
+                        <h1 class=" text-sm xl:text-base 2xl:text-lg text-white px-3 lg:px-5 xl:10 py-3 font-montserrat font-custom-650 ">
+                            SHOP WOMEN
+                        </h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section 2 -->
+    <section class=" py-10 md:py-12 lg:py-14 xl:py-16 2xl:py-20 ">
+        <!-- Container -->
+        <div class=" flex flex-col container px-0 xl:px-20 mx-auto">
+            <h1 class=" text-center text-lg mb-5 font-montserrat font-custom-650 
+                        lg:text-xl
+                        xl:text-left"
+                        >
+                HOW IT WORKS
+            </h1>
+            <div class=" flex w-1/2 mx-auto 
+                         md:w-9/12
+                         xl:self-start xl:mx-0 xl:w-1/2"
+                        >
+                <h1 class=" text-center text-3xl font-montserrat font-custom-750
+                            md:leading-10 md:text-4xl
+                            lg:text-5xl lg:leading-normal
+                            xl:text-left"
+                            >
+                    This is the future of premium eyewear
+                </h1>
+            </div> 
+            <div class=" z-0 hidden xl:flex mt-20 w-full border-t-2 border-dashed border-custom-divider"></div>
+
+             <!-- Container 1 -->
+            <div class=" mx-auto xl:-mt-13 xl:z-10 py-10 px-10 xl:px-0 flex flex-wrap flex-row xl:flex-nowrap gap-10 xl:gap-0 xl:justify-between font-montserrat ">
+                <!-- Icon 1 -->
+                <div class=" flex flex-col w-5/12 xl:w-4/12 mx-auto text-center items-center bg-gray-50 xl:bg-transparent px-5">
+                        <!-- Dot1 -->
+                        <div class=" hidden xl:inline-block rounded-full mb-14 bg-black  h-6 w-6 items-center">
+                        </div>
+                        <img class=" h-20 w-20 xl:h-32 xl:w-32" src="image/Icon1-Scanner.png" alt="">
+                        <h1 class=" mt-5 xl:mt-16 text-custom-21 mb-3  font-custom-650">
+                            Measured for you
+                        </h1>
+                        <p class="  text-custom-15 tracking-wider leading-7">
+                            Use our IOS app to scan
+                            your face and capture over
+                            20,000 3D measurements.
+                        </p>
+                </div>
+                <!-- Icon 2 -->
+                <div class=" flex flex-col w-5/12 xl:w-4/12 mx-auto  items-center text-center bg-gray-50 xl:bg-transparent px-5 ">
+                    <!-- Dot2 -->
+                    <div class=" hidden xl:inline-block rounded-full mb-14 bg-black h-6 w-6 items-center">
+                    </div>
+                    <img class=" h-20 w-20 xl:h-32 xl:w-32" src="image/Icon2-customize.png" alt="">
+                    <h1 class=" mt-5 xl:mt-16  text-custom-21 mb-3 font-custom-650">
+                        Designed by you
+                    </h1>
+                    <p class="  text-custom-15 tracking-wider leading-7">
+                        Select your style, choose your 
+                        color, line-tune the shape, and
+                        preview it with our virtual try-on.
+                    </p>
+                </div>
+                <!-- Icon 3 -->
+                <div class=" flex flex-col w-5/12 xl:w-4/12 mx-auto  items-center text-center bg-gray-50 xl:bg-transparent px-5 ">
+                    <!-- Dot3 -->
+                    <div class=" hidden xl:inline-block rounded-full mb-14 bg-black h-6 w-6 items-center">
+                    </div>
+                    <img class=" h-20 w-20 xl:h-32 xl:w-32" src="image/Icon3-fromScratch.png" alt="">
+                    <h1 class=" mt-5 xl:mt-16  text-custom-21 mb-3 font-custom-650">
+                        Made from scratch
+                    </h1>
+                    <p class="  text-custom-15 tracking-wider leading-7">
+                        Each pair is crafted for one
+                        person at a time from the highest 
+                        quality acetate and metal.
+                    </p>
+                </div>
+                <!-- Icon 4 -->
+                <div class=" flex flex-col w-5/12 xl:w-4/12 mx-auto  items-center  text-center bg-gray-50 xl:bg-transparent px-5">
+                    <!-- Dot4 -->
+                    <div class=" hidden xl:inline-block rounded-full mb-14 bg-black h-6 w-6 items-center">
+                    </div>
+                    <img class=" h-20 w-20 xl:h-32 xl:w-32" src="image/Icon4-guaranteed.png" alt="">
+                    <h1 class=" mt-5 xl:mt-16  text-custom-21 mb-3 font-custom-650">
+                        Perfect, guaranteed
+                    </h1>
+                    <p class="  text-custom-15 tracking-wider leading-7">
+                        We guarantee your Sunny
+                        Lenses glasses will fit perfectly,
+                        look great and feel amazing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class=" bg-custom-blue">
+        <!-- Container -->
+        <div class=" flex flex-row container px-20 mx-auto  ">
+            <!-- Image 1 -->
+            <div class=" hidden -mt-16 mb-20  2xl:inline">
+                <img src="image/img1.png" alt="">
+            </div>
+            <!-- Image 2 -->
+            <div class=" hidden mt-20 -mb-12 ml-10 2xl:inline">
+                <img src="image/img2.png" alt="">
+            </div>
+            <!-- Image 3 -->
+            <div class=" hidden mt-36 2xl:-ml-48 2xl:mr-10 2xl:inline">
+                <img src="image/img3.png" alt="">
+            </div>
+
+            <div class=" flex flex-col xl:flex-row 2xl:flex 2xl:flex-col self-center xl:justify-between 2xl:w-1/2 ">
+                <div class=" mx-auto my-20 lg:my-20 2xl:my-0 2xl:mt-20 xl:ml-0 2xl:ml-20 2xl:flex 2xl:flex-col space-y-5 md:space-y-3 font-montserrat text-center 2xl:text-left xl:w-1/2 2xl:w-4/5 ">
+                    <h2 class=" font-custom-650">
+                        DESIGNED BY YOU
+                    </h2>
+                    <h1 class="text-custom-52 font-montserrat font-custom-750">
+                        Individual Style
+                    </h1>
+                    <p class=" tracking-wider space-y-5 leading-10">
+                        Like a bespoke suit or couture dress, exceptional 
+                        style starts with fit that was made just for you. We 
+                        craft your glasses based to your distinct stylistic
+                        choices and your personal preferences, so you’re 
+                        free to truly express yourself. 
+                    </p>
+                </div>
+                <div class=" hidden 2xl:ml-40  md:ml-0 xl:mb-0 md:flex xl:flex xl:w-1/2 2xl:w-full justify-center md:self-center 2xl:self-center">
+                    <img class="-mb-5 2xl:-mb-16 xl:mb-0 mt-10 xl:mt-0 2xl:mt-5 xl:w-96 xl:h-96 2xl:h-full 2xl:w-full md:mt-0" src="image/Group 5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class=" py-40">
+        <!-- Container -->
+        <div class="container grid gap-10 xl:flex xl:flex-row justify-center xl:justify-between xl:justify-evenly px-20 mx-auto">
+            <!-- Explore 1 -->
+            <div class=" bg-custom-yellow flex flex-col px-28 xl:px-20 2xl:px-20 py-10  rounded-4xl justify-center">
+                <div class=" flex flex-col items-center space-y-10 ">
+                    <h1 class=" text-custom-21 text-center font-montserrat font-custom-650 w-44 xl:w-50 ">FIND A LOCATION</h1>
+                    <img class="" src="image/Icon1-Location.png" alt="">
+                    <div class=" flex flex-row items-center justify-center space-x-2">
+                        <p class=" text-center text-custom-21 font-montserrat tracking-wider space-y-5">
+                            Learn more
+                        </p>
+                        <img src="image/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Explore 2 -->
+            <div class=" bg-custom-yellow flex flex-col px-28 xl:px-20 2xl:px-20 py-10  rounded-4xl justify-center">
+                <div class=" flex flex-col items-center space-y-10 ">
+                    <h1 class=" text-custom-21 text-center font-montserrat font-custom-650 w-44 xl:w-50 ">BROWSE OUR FRAME STYLES</h1>
+                    <img class="" src="image/Icon2-glasses.png" alt="">
+                    <div class=" flex flex-row items-center justify-center space-x-2">
+                        <p class=" text-center text-custom-21 font-montserrat tracking-wider space-y-5">
+                            Explore Frames
+                        </p>
+                        <img src="image/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Explore 3 -->
+            <div class=" bg-custom-yellow flex flex-col px-28 xl:px-20 2xl:px-20 py-10  rounded-4xl justify-center">
+                <div class=" flex flex-col items-center space-y-10 ">
+                    <h1 class=" text-custom-21 text-center font-montserrat font-custom-650 w-44 xl:w-50 ">
+                        EXPLORE OUR LENS OPTIONS
+                    </h1>
+                    <img class="" src="image/Icon3-lenses.png" alt="">
+                    <div class=" flex flex-row items-center justify-center space-x-2">
+                        <p class=" text-center text-custom-21 font-montserrat tracking-wider space-y-5">
+                            Explore Lenses
+                        </p>
+                        <img src="image/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class=" bg-black">
+        <div class="container flex flex-col justify-between px-20 py-20  mx-auto">
+            <div class=" flex flex-col space-y-6 w-full 2xl:place-self-start ">
+                <h2 class=" text-center 2xl:text-left text-white text-custom-25 font-montserrat font-semibold">
+                    VERIFIED CUSTOMERS REVIEWS
+                </h2>
+                <h1 class=" text-center 2xl:text-left text-white text-custom-52  font-montserrat font-bold">
+                    Customer lookbook
+                </h1>
+            </div>
+            <!-- Review Container -->
+            <div class=" relative flex flex-row bg-custom-blue mt-16 py-20 justify-between border-none items-center rounded-4xl">
+                <div class="">
+                    <img class=" w-full" src="image/Layer_1-removebg-preview.png" alt="">
+                </div>
+                <div class=" hidden lg:flex  lg:w-32 2xl:w-40 absolute  bg-custom-yellow top-0 bottom-0 left-1/4 lg:left-40 xl:left-1/4 z-0 ">
+                </div>
+                <div class=" flex flex-col lg:flex-row lg:space-x-6 2xl:space-x-32 items-center justify-center ">
+                    <div class=" z-10 top-auto w-3/4 bottom-auto xl:-ml-16 self-center items-center justify-center">
+                        <img class=" w-11/12 2xl:w-full"  src="image/img.png" alt="">
+                    </div>
+
+                    <div class=" flex px-5 flex-col lg:flex lg:flex-row xl:ml-20 space-y-5">
+                        <div class=" flex flex-col z-20 2xl:space-y-5">
+                            <img class=" w-full mt-5" src="image/Star-rating.png" alt="">
+                            <p class=" font-inter text-custom-21 w-custom-76 xl:ml-2 font-semibold">
+                                “It’s such a game changer, and
+                                if you wear prescription glasses,
+                                I’d say life-changing.”
+                            </p>
+                            <h1 class=" font-inter font-bold text-2xl mt-20">
+                                Mia C.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class=" ml-0"> 
+                    <img class=" w-full rotate-180" src="image/Layer_1-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container flex flex-col justify-between px-20 py-20  mx-auto">
+            <div class=" flex flex-col-reverse space-y-10 lg:space-y-0 justify-center items-center lg:flex-row lg:justify-between">
+                <img src="image/Sunny_Lenses__1_-removebg-preview.png" alt="">
+                <div class=" flex flex-row items-stretch">
+                    <div class=" flex flex-col lg:flex-row items-center self-center justify-center space-x-6">
+                        <div class=" flex">
+                            <h1 class="  text-custom-21 text-center font-montserrat font-custom-650">FOLLOW US</h1>
+                        </div>
+                       <div class=" flex flex-row items-center space-x-6">
+                            <div class=" flex">
+                                <img src="image/Twitter.png" alt="">
+                            </div>
+                            <div class=" flex">
+                                <img src="image/Vector.png " alt="">
+                            </div>
+                            <div class=" flex pt-2">
+                                <img src="image/Facebook.png" alt="">
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden xl:flex mt-20 w-full border-t-2 border-dashed border-custom-divider"></div>
+            <!-- Container -->
+            <div class=" flex flex-col xl:flex-row justify-between xl:space-x-20 ">
+                <div class=" flex flex-row mt-20 justify-between space-x-10">
+                    <!-- Florida Location -->
+                    <div class="">
+                        <h1 class=" text-custom-18 font-montserrat font-custom-650">
+                            FLORIDA LOCATION
+                        </h1>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8 ">
+                            4578 Holt Street
+                            <br>Boca Raton, FL 33847
+                        </p>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8">
+                            (785) 689-4123
+                        </p>
+                    </div>
+                    <!-- California LOcation -->
+                    <div>
+                        <h1 class=" text-custom-18 font-montserrat font-custom-650">
+                            CALIFORNIA LOCATION
+                        </h1>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8 ">
+                            2659 Pike Street
+                            <br>San Diego, CA 92503
+                        </p>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8">
+                            (858) 610-2828
+                        </p>
+                    </div>
+                    <!-- Texas Location -->
+                    <div>
+                        <h1 class=" text-custom-18 font-montserrat font-custom-650">
+                            TEXAS LOCATION
+                        </h1>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8 ">
+                            1731  Weekly Street
+                            <br>San Antonio, TX 78205
+                        </p>
+                        <p class=" text-custom-15 font-montserrat font-medium mt-8">
+                            (210) 299-7827
+                        </p>
+                    </div>
+                </div>
+                <div class="hidden xl:flex flex-row justify-end mt-40 space-x-32">
+                    <div class=" flex flex-col">
+                        <a class="text-custom-18 font-montserrat font-medium" href="">Frames</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Lenses</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Pricing</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Reviews</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Home</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Locations</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Gift Cards</a>
+                    </div>
+                    <div class=" flex flex-col">
+                        <a class="text-custom-18 font-montserrat font-medium " href="">About Us</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Careers</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Order Status</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Delivery and Shipping</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Returns</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">FAQs</a>
+                        <a class="text-custom-18 font-montserrat font-medium mt-8" href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class=" bg-custom-blue flex">
+        <!-- Container -->
+        <div class=" container p-20 mx-auto flex flex-row justify-between xl:text-custom-18 font-montserrat font-normal">
+            <div>
+                <h2 class="">
+                    &#169; 2023 Sunny Lenses. All Rights Reserved
+                </h2>
+            </div>
+            <div class=" flex flex-row text-sm ">
+                <h2 class="">
+                    Privacy & Security <span class=" mx-2">|</span> Terms and Conditions
+                </h2>
+              
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
